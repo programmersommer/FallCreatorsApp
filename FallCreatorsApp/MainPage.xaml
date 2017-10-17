@@ -11,7 +11,7 @@
                     ItemInvoked="NavView_ItemInvoked">
 
         <NavigationView.MenuItems>
-            <NavigationViewItem Content="Home" Tag="home">
+            <NavigationViewItem Content="Начальная страница" Tag="home">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE10F;"/>
                 </NavigationViewItem.Icon>

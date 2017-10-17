@@ -43,7 +43,7 @@ namespace FallCreatorsApp
             {
                 switch (args.InvokedItem)
                 {
-                    case "Home":
+                    case "Начальная страница":
                         ContentFrame.Navigate(typeof(HomePage));
                         break;
 
