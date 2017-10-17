@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="FallCreatorsApp.RestartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FallCreatorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" Padding="50" HorizontalAlignment="Center">
+
+        <TextBlock HorizontalAlignment="Center" 
+                   HorizontalTextAlignment="Center">
+            Введите параметры для перезапуска</TextBlock>
+        <TextBox x:Name="txtParams" Margin="20" Width="300"
+                 HorizontalAlignment="Center"></TextBox>
+        <Button x:Name="btnRestart" Click="btnRestart_Click" 
+                HorizontalContentAlignment="Center" HorizontalAlignment="Center"
+                Height="50" Width="200">Рестарт</Button>
+    </StackPanel>
+</Page>
