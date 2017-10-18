@@ -113,21 +113,21 @@ namespace FallCreatorsApp
                 var startupArgs = args as StartupTaskActivatedEventArgs;
                 rootFrame.Navigate(typeof(InitialStartupPage));
                 Window.Current.Activate();
-                return;
             }
-
-            if (args.Kind == ActivationKind.Launch)
+            else if (args.Kind == ActivationKind.Launch)
             {
                 // перезапуск аналогичен запуску, но может передать параметры
                 LaunchActivatedEventArgs launchArgs = args as LaunchActivatedEventArgs;
                 string argString = launchArgs.Arguments;
                 rootFrame.Navigate(typeof(MainPage), argString);
                 Window.Current.Activate();
-                return;
+            }
+            else
+            {
+                rootFrame.Navigate(typeof(MainPage));
+                Window.Current.Activate();
             }
 
-            rootFrame.Navigate(typeof(MainPage));
-            Window.Current.Activate();
         }
 
 
