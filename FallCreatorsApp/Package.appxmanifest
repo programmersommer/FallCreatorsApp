@@ -16,7 +16,7 @@
 
   <Properties>
     <DisplayName>FallCreatorsApp</DisplayName>
-    <PublisherDisplayName>xamarin</PublisherDisplayName>
+    <PublisherDisplayName>Alexej Sommer</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -39,9 +39,9 @@
       Executable="App1.exe"
       EntryPoint="App1.App">
           <uap5:StartupTask
-            TaskId="SomeIdThatIUseWithThisApp"
+            TaskId="FallCreatorsAppId"
             Enabled="false"
-            DisplayName="Name of Test App" />
+            DisplayName="FallCreatorsApp" />
         </uap5:Extension>
       </Extensions>
 

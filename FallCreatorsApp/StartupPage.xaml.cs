@@ -31,7 +31,7 @@ namespace FallCreatorsApp
         private async void btnStartup_Click(object sender, RoutedEventArgs e)
         {
             // Сначала проверяем состояние автозапуска. Получаем его в переменную startupTask
-            StartupTask startupTask = await StartupTask.GetAsync("SomeIdThatIUseWithThisApp");
+            StartupTask startupTask = await StartupTask.GetAsync("FallCreatorsAppId");
             switch (startupTask.State)
             {
                 case StartupTaskState.Disabled:
