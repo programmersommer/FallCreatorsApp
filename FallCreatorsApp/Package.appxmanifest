@@ -36,8 +36,8 @@
       <Extensions>
         <uap5:Extension
       Category="windows.startupTask"
-      Executable="App1.exe"
-      EntryPoint="App1.App">
+      Executable="FallCreatorsApp.exe"
+      EntryPoint="FallCreatorsApp.App">
           <uap5:StartupTask
             TaskId="FallCreatorsAppId"
             Enabled="false"
