@@ -10,7 +10,7 @@
     <Page.Resources>
         <SymbolIconSource x:Key="DeleteIcon" Symbol="Delete" />
 
-        <SwipeItems x:Key="ExecuteDelete" Mode="Execute">
+        <SwipeItems x:Key="ExecuteDelete" Mode="Reveal">
             <SwipeItem Text="Delete" IconSource="{StaticResource DeleteIcon}" Invoked="SwipeDeleteItem_Invoked" />
         </SwipeItems>
     </Page.Resources>
