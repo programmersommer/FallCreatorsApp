@@ -120,6 +120,9 @@
     <Compile Include="StartupPage.xaml.cs">
       <DependentUpon>StartupPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SwipePage.xaml.cs">
+      <DependentUpon>SwipePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VariousControlsPage.xaml.cs">
       <DependentUpon>VariousControlsPage.xaml</DependentUpon>
     </Compile>
@@ -177,6 +180,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StartupPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SwipePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

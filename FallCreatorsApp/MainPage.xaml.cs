@@ -67,6 +67,10 @@ namespace FallCreatorsApp
                         ContentFrame.Navigate(typeof(VariousControlsPage));
                         break;
 
+                    case "Swipe":
+                        ContentFrame.Navigate(typeof(SwipePage));
+                        break;
+
                 }
             }
         }

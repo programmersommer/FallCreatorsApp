@@ -7,6 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.Resources>
+        <SymbolIcon Symbol="Switch" x:Key="Color" />
+    </Page.Resources>
+    
     <NavigationView x:Name="NavView" IsSettingsVisible="True"
                     ItemInvoked="NavView_ItemInvoked">
 
@@ -18,11 +22,12 @@
             </NavigationViewItem>
             <NavigationViewItemSeparator/>
             <NavigationViewItemHeader Content="Новые возможности"/>
-            <NavigationViewItem Icon="AllApps" Content="Автозагрузка" Tag="автозагрузка"/>
-            <NavigationViewItem Icon="AllApps" Content="Перезапуск" Tag="перезапуск"/>
-            <NavigationViewItem Icon="Video" Content="Color picker" Tag="color picker"/>
-            <NavigationViewItem Icon="Audio" Content="Parallax" Tag="parallax"/>
-            <NavigationViewItem Icon="Audio" Content="Другие контролы" Tag="другие"/>
+            <NavigationViewItem Icon="GoToStart"  Content="Автозагрузка" Tag="автозагрузка"/>
+            <NavigationViewItem Icon="RepeatAll" Content="Перезапуск" Tag="перезапуск"/>
+            <NavigationViewItem Icon="FontColor" Content="Color picker" Tag="color picker"/>
+            <NavigationViewItem Icon="OpenWith" Content="Parallax" Tag="parallax"/>
+            <NavigationViewItem Icon="OpenPane"  Content="Swipe" Tag="swipe"/>
+            <NavigationViewItem Icon="More" Content="Другие контролы" Tag="другие"/>
         </NavigationView.MenuItems>
 
         <NavigationView.HeaderTemplate>
